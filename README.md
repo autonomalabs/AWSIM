@@ -17,7 +17,7 @@ There are two options to run racing simulations:
 
 1. Download binary (recommended)
 
-    Download the most recent racing simulator build in the Github Releases. (not available yet)
+    Download the most recent racing simulator build in the Github Releases.
 
 - Windows: Double-click the downloaded executable (.exe)
     
