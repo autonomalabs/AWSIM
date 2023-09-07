@@ -2576,6 +2576,21 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8633946477159469461, guid: fd8e5fb503eac4e7bb03d391fe2082d3, type: 3}
+      propertyPath: m_text
+      value: 'Copyright 2023 Autonoma, Inc.
+
+        Image credits: Indy Autonomous
+        Challenge'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633946477159469461, guid: fd8e5fb503eac4e7bb03d391fe2082d3, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: ccb0e4037c86743efafd3272245ad587, type: 2}
+    - target: {fileID: 8633946477159469461, guid: fd8e5fb503eac4e7bb03d391fe2082d3, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2438328849026155346, guid: ccb0e4037c86743efafd3272245ad587, type: 2}
     - target: {fileID: 8633946479027066518, guid: fd8e5fb503eac4e7bb03d391fe2082d3, type: 3}
       propertyPath: m_text
       value: '<size=40><b>Support</size></b>
