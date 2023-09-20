@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: MonzaParams
   m_EditorClassIdentifier: 
   TrackName: Monza
-  LAT_ORIGIN: 45.61898112499332
-  LON_ORIGIN: 9.281106620617265
-  HEIGHT_ORIGIN: 190
+  LAT_ORIGIN: 45.618974079378670
+  LON_ORIGIN: 9.281181751068655
+  HEIGHT_ORIGIN: 182.9
   trackRotation: {x: 0, y: -90, z: 0}
   carRotation: {x: 0, y: 0, z: 0}
   trackScaling: {x: 1, y: 1, z: 1}
