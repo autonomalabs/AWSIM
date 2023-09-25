@@ -30,7 +30,7 @@ The Dallara IL-15 is an open-wheel formula racing car chassis, designed, develop
 and is the current spec-chassis for the one-make Indy Lights spec-series, a feeders series for IndyCar, 
 which has been manufactured since 2015.
 
-## Suspansion
+## Suspension
 
 
 <center><img src=suspansion.jpg width=900px></center>
