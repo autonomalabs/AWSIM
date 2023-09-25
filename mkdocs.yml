@@ -25,6 +25,17 @@ markdown_extensions:
 nav:
   - Home: index.md
 
+  - Racing Sim:
+      - Owerview: RacingSim/Overview/index.md
+      - ROS2 Interface: RacingSim/ROS2Interface/index.md
+      - Sensors: RacingSim/Sensors/index.md
+      - Vehicle Dynamics: RacingSim/VehicleDynamics/index.md
+      - Gallery:
+          - Sensors: RacingSim/photos/sensors/index.md
+          - Vehicle: RacingSim/photos/vehicle/index.md
+
+
+
   - Getting started:
     - Quick Start Demo: GettingStarted/QuickStartDemo/index.md
     - Setup Unity Project: GettingStarted/SetupUnityProject/index.md
