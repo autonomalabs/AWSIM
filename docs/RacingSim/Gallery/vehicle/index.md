@@ -48,3 +48,29 @@ which has been manufactured since 2015.
 </p>
 
 <img src=IAC-dallara-engine.jpg width=800px>
+
+The Honda K20C1, better known as the engine powering the venerable Civic Type-R,
+is a powerful turbocharged 2.0L engine that for years has only been available as a crate engine for professional race teams
+
+### Engine Specification
+
+   - Displacement 1996cc (2.0L)
+   - Bore 86.0mm
+   - Stroke 85.9mm
+   - Compression Ratio 9.8:1
+   - Firing Order 1-3-4-2
+   - Fuel System - Direct Injection
+   - Power 306hp
+   - Torque 296lb-ft
+   - Fuel - Minimum 91 Octane
+
+### Includes
+
+   - K20C1 Long Block Engine
+   - Turbocharger
+   - Alternator
+   - Throttle body
+   - Intake Manifold
+   - Thermostat and Housing
+   - Engine sensors
+
