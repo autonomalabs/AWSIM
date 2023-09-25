@@ -14,10 +14,17 @@
 
 <br> [For Luminar Lidars](https://www.luminartech.com/company)
 
+- Maximum range: 500m             
+
+- Range precision: 1cm
+
+- Horizontal FoV: 120°            
+
+- Scan rate: 640 lines/s
 
 
 ## CAMERA
-
+<br/>
 
 <p>
   <figure id=_figure-1>
@@ -28,6 +35,11 @@
 
 <center><img src=camera-vehicle.png width=900px></center>
 
+- Max Resolution: 2064 (H) × 1544 (V)
+
+- Spectral range: 300 to 1100 nm
+
+- Max. frame rate at full resolution: 37.6 fps
 
 ## RADAR
 

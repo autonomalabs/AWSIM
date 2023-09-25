@@ -1,5 +1,7 @@
 # Dallara IL 15
 
+The official vehicle of the Indy Autonomous Challenge is the Dallara-built AV-21 that has been retrofitted with hardware and controls to enable automation.
+The Dallara AV-21 chassis is a modified version of the Indy Lights chassis.
 
 <img src=vehicle1.jpg width=800px>
 
