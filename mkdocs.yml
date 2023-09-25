@@ -31,8 +31,8 @@ nav:
       - Sensors: RacingSim/Sensors/index.md
       - Vehicle Dynamics: RacingSim/VehicleDynamics/index.md
       - Gallery:
-          - Sensors: RacingSim/photos/sensors/index.md
-          - Vehicle: RacingSim/photos/vehicle/index.md
+          - Sensors: RacingSim/Gallery/sensors/index.md
+          - Vehicle: RacingSim/Gallery/vehicle/index.md
 
 
 
