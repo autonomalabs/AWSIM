@@ -2,7 +2,7 @@ name: documentation_generation
 on:
   push:
     branches:
-      - master 
+      - racing-main
       - main
 jobs:
   deploy:
