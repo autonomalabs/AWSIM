@@ -43,6 +43,7 @@ The AV-21 is built by Dallara and based on the Dallara IL-15 chassis. The engine
 ## Actuator Specifications
 
 **Steer-by-wire Specifications**
+
 | Specification                  | Symbol          | Value | Units                |
 |--------------------------------|-----------------|-------|----------------------|
 | Steering motor angle input range |\( delta_{cmd} \)|[-240, 240]|deg|
@@ -52,6 +53,7 @@ The AV-21 is built by Dallara and based on the Dallara IL-15 chassis. The engine
 | Steering motor bandwidth |\( delta_{bw} \)|3.0|Hz|
 
 **Brake-by-wire Specifications**
+
 | Specification                  | Symbol          | Value | Units                |
 |--------------------------------|-----------------|-------|----------------------|
 | Max brake pressure |\( b_{cmd} \)|6000|kPa|
@@ -64,6 +66,7 @@ The AV-21 is built by Dallara and based on the Dallara IL-15 chassis. The engine
 ## Aerodynamics
 
 Aerodynamic effects are modeled with the drag coefficients and the lift coefficients and downforce is applied at each axle.
+
 | Specification                  | Symbol          | Value | Units                |
 |--------------------------------|-----------------|-------|----------------------|
 | Coefficient of drag |\( C_d \)|0.8581||

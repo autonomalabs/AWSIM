@@ -29,7 +29,7 @@ There are two options to run racing simulations:
 
 2. From the Unity Editor
 
-    a. To run directly from the Unity editor, follow the instructions in [Getting Started - Setup Unity Projet](/docs/GettingStarted/SetupUnityProject/index.md), but switch to the racing git branch after cloning.
+    a. To run directly from the Unity editor, follow the instructions in [Getting Started - Setup Unity Project](/docs/GettingStarted/SetupUnityProject/index.md), but switch to the racing git branch after cloning.
 
     b. Download and import `racetracks_v1.unitypackge`
 

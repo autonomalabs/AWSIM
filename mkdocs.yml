@@ -1,6 +1,6 @@
-site_name: AWSIM document
+site_name: AWSIM racing document
 
-repo_url: https://github.com/tier4/AWSIM
+repo_url: https://github.com/autonomalabs/AWSIM
 
 theme:
   name: material
@@ -24,6 +24,17 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+
+  - Racing Sim:
+      - Owerview: RacingSim/Overview/index.md
+      - ROS2 Interface: RacingSim/ROS2Interface/index.md
+      - Sensors: RacingSim/Sensors/index.md
+      - Vehicle Dynamics: RacingSim/VehicleDynamics/index.md
+      - Gallery:
+          - Sensors: RacingSim/Gallery/sensors/index.md
+          - Vehicle: RacingSim/Gallery/vehicle/index.md
+
+
 
   - Getting started:
     - Quick Start Demo: GettingStarted/QuickStartDemo/index.md
