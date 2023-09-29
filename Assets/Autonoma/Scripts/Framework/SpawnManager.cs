@@ -100,7 +100,7 @@ public class SpawnManager : MonoBehaviour
 
     public void SpawnEnvironment()
     {
-        string path = Application.streamingAssetsPath;//"Assets/Autonoma/Environments/";
+        string path = Application.streamingAssetsPath;
         string bundleName;
         string trackName = GameManager.Instance.Settings.myTrackParams.TrackName+".prefab";
         bool isBundleLoaded = false;

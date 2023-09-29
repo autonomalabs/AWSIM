@@ -23,10 +23,10 @@ markdown_extensions:
   - attr_list
 
 nav:
-  - Home: RacingSim/Overview/index.md
+  - Home: index.md
 
   - Racing Sim:
-      - Overview: RacingSim/Overview/index.md
+      - Overview: index.md
       - ROS2 Interface: RacingSim/ROS2Interface/index.md
       - Sensors: RacingSim/Sensors/index.md
       - Vehicle Dynamics: RacingSim/VehicleDynamics/index.md

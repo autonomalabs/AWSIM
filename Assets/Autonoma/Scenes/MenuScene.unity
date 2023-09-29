@@ -2512,6 +2512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 1083764371829305311, guid: fd8e5fb503eac4e7bb03d391fe2082d3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2757668620243518637, guid: fd8e5fb503eac4e7bb03d391fe2082d3, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
