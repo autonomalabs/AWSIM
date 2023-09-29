@@ -1,6 +1,6 @@
-site_name: AWSIM document
+site_name: AWSIM racing document
 
-repo_url: https://github.com/tier4/AWSIM
+repo_url: https://github.com/autonomalabs/AWSIM
 
 theme:
   name: material
