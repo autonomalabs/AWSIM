@@ -5,11 +5,11 @@ A vehicle simulator for the Dallara AV-21R. This simulator provides a way for te
 ## Documentation
 1. How to use racing simulator (this page)
 
-2. [ROS2 Interface](/docs/RacingSim/ROS2Interface/index.md)
+2. [ROS2 Interface](RacingSim/ROS2Interface/index.md)
 
-2. [Vehicle dynamics details](/docs/RacingSim/VehicleDynamics/index.md)
+2. [Vehicle dynamics details](RacingSim/VehicleDynamics/index.md)
 
-3. [Sensor details](/docs/RacingSim/Sensors/index.md)
+3. [Sensor details](RacingSim/Sensors/index.md)
 
 ## Downloading Simulator
 
@@ -29,20 +29,24 @@ There are two options to run racing simulations:
 
 2. From the Unity Editor
 
-    a. To run directly from the Unity editor, follow the instructions in [Getting Started - Setup Unity Projet](/docs/GettingStarted/SetupUnityProject/index.md), but switch to the racing git branch after cloning.
+    a. To run directly from the Unity editor, clone the repository and make sure you are on the `racing-main` git branch.
+    
+    b. ***Run the script `sm_setup.sh` to set up the repository to pull the correct submodules.***
+    
+    c. Follow the instructions in [Getting Started - Setup Unity Project](GettingStarted/SetupUnityProject/index.md).
 
-    b. Download and import `racetracks_v1.unitypackge`
+    d. Download and import `racetracks_v1.unitypackge`
 
     [Download racetrack assets (unitypackage)](https://netorgft10298407-my.sharepoint.com/:f:/g/personal/will_bryan_autonomalabs_com/EnFiHnKOU2VKpFyvuGNnSoEBHrcnGAxe8js3GnDwgTMl8Q?e=joBXev){.md-button .md-button--primary}
 
-    c. In Unity Editor, from the menu bar at the top, select `Assets -> Import Package -> Custom Package...` and navigate the `racetracks_v1.unitypackage` file.
-![](/docs/RacingSim/Overview/Image_import1.png)
-![](/docs/RacingSim/Overview/Image_import2.png)
+    e. In Unity Editor, from the menu bar at the top, select `Assets -> Import Package -> Custom Package...` and navigate the `racetracks_v1.unitypackage` file.
+![](RacingSim/Overview/Image_import1.png)
+![](RacingSim/Overview/Image_import2.png)
 
 ## Scenario Setup
-![](/docs/RacingSim/Overview/Image_main_menu.png)
+![](RacingSim/Overview/Image_main_menu.png)
 In the main menu, click the 'Scenario Setup' button.
-![](/docs/RacingSim/Overview/Image_scenario_menu.png)
+![](RacingSim/Overview/Image_scenario_menu.png)
 - Select a saved scenario from the dropdown or create a new one (scenario and vehicle setups are saved in your Documents folder)
 - Select a saved vehicle setup
 - Select a racetrack
@@ -59,7 +63,7 @@ In the main menu, click the 'Scenario Setup' button.
 
 ## Vehicle Setup
 To view or create a setup, click the 'Vehicle Setup' button.
-![](/docs/RacingSim/Overview/Image_vehicle_setup.png)
+![](RacingSim/Overview/Image_vehicle_setup.png)
 - Modify an existing setup or save a new one with the 'Save' button
 - To fill in suggested values, press the 'Default' button
 - Differential
@@ -82,14 +86,14 @@ Sensor setup menu is currently disabled but will be available at a future date
 
 ## Simulation operation
 To start a simulation, click 'Drive' from the 'Scenario Setup' menu.
-![](/docs/RacingSim/Overview/Image_camera1.png)
+![](RacingSim/Overview/Image_camera1.png)
 
 - 'C' cycles through various camera angles
 - 'R' or Reset button reset the car back onto the track and pointed in the correct direction
 - Pause button -> Restart button relaunches the entire scenario
 - The HUD shows steering motor input, throttle input, brake input, current gear, speed, rpm, ct_state, sys_state, tire tempuratures, and lap times.
 
-![](/docs/RacingSim/Overview/Image_camera2.png)
+![](RacingSim/Overview/Image_camera2.png)
 
 ### Human driver mode
 - Controls are 'arrow keys' for throttle, steering and brake
@@ -100,7 +104,7 @@ To start a simulation, click 'Drive' from the 'Scenario Setup' menu.
 - You can continue with standard AV-21R startup proceedure
     - If you selected 'Raptor Hot Start' then you can immediately begin driving
     - If you did not, vehicle requires an orange flag and a ct_state = 5, followed by removing the orange flag to begin driving.
-    - Low-level state machine is described in more detail in the [Sensors - Raptor](/docs/RacingSim/Sensors/index.md) section.
+    - Low-level state machine is described in more detail in the [Sensors - Raptor](RacingSim/Sensors/index.md) section.
 
 ## Copyright and License
 

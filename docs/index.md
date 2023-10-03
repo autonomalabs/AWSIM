@@ -29,13 +29,17 @@ There are two options to run racing simulations:
 
 2. From the Unity Editor
 
-    a. To run directly from the Unity editor, follow the instructions in [Getting Started - Setup Unity Project](GettingStarted/SetupUnityProject/index.md), but switch to the racing git branch after cloning.
+    a. To run directly from the Unity editor, clone the repository and make sure you are on the `racing-main` git branch.
+    
+    b. ***Run the script `sm_setup.sh` to set up the repository to pull the correct submodules.***
+    
+    c. Follow the instructions in [Getting Started - Setup Unity Project](GettingStarted/SetupUnityProject/index.md).
 
-    b. Download and import `racetracks_v1.unitypackge`
+    d. Download and import `racetracks_v1.unitypackge`
 
     [Download racetrack assets (unitypackage)](https://netorgft10298407-my.sharepoint.com/:f:/g/personal/will_bryan_autonomalabs_com/EnFiHnKOU2VKpFyvuGNnSoEBHrcnGAxe8js3GnDwgTMl8Q?e=joBXev){.md-button .md-button--primary}
 
-    c. In Unity Editor, from the menu bar at the top, select `Assets -> Import Package -> Custom Package...` and navigate the `racetracks_v1.unitypackage` file.
+    e. In Unity Editor, from the menu bar at the top, select `Assets -> Import Package -> Custom Package...` and navigate the `racetracks_v1.unitypackage` file.
 ![](RacingSim/Overview/Image_import1.png)
 ![](RacingSim/Overview/Image_import2.png)
 
