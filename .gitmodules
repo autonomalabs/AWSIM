@@ -1,0 +1,3 @@
+[submodule "Assets/Autonoma"]
+	path = Assets/Autonoma
+	url = git@github.com:autonomalabs/autonoma-awsim
