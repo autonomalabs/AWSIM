@@ -19,7 +19,7 @@ namespace AWSIM
         /// <summary>
         /// Pose sensor frame id.
         /// </summary>
-        public string FrameID = "base_link";
+        public string FrameID = "map";
 
         /// <summary>
         /// QoS settings.
@@ -103,6 +103,7 @@ namespace AWSIM
             // Update msg header.
             var header = msg as MessageWithHeader;
             SimulatorROS2Node.UpdateROSTimestamp(ref header);
+            msg.Header.Frame_id = FrameID;
 
             msg.Child_frame_id = "base_link";
 
