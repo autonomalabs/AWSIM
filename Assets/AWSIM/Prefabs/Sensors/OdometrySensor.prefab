@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Topic: /awsim/ground_truth/localization/kinematic_state
-  FrameID: base_link
+  FrameID: map
   QosSettings:
     ReliabilityPolicy: 2
     DurabilityPolicy: 2
