@@ -4,6 +4,8 @@ To see how to custom messages type for ROS2, please refer to [Add custom ROS2 me
 
 **The custom messages used for the racing simulator can be found [HERE](https://github.com/autonomalabs/sim-msgs).**
 
+Users can choose betweent the high-level ROS2 interface (`/vehicle_data`, `/powertrain_data`, `/race_control`, `/vehicle_inputs`, `/to_raptor`) OR the low-level CAN interface (`/from_can_bus`, `/to_can_bus`). The DBC file with the message definitions for the low-level CAN interface [can be found here](CAN1-INDY-V14.dbc).
+
 ## Publisher list
 
 |category|topic|msg|frame_id|hz|QoS|
@@ -11,6 +13,7 @@ To see how to custom messages type for ROS2, please refer to [Add custom ROS2 me
 |Vehicle|`/vehicle_data`|`autonoma_msgs/VehicleData`|none|`100`|`Reliable`, `Volatile`, `Keep last/10`|
 |Vehicle|`/powertrain_data`|`autonoma_msgs/PowertrainData`|none|`100`|`Reliable`, `Volatile`, `Keep last/10`|
 |Race Control|`/race_control`|`autonoma_msgs/RaceControl`|none|`10`|`Reliable`, `Volatile`, `Keep last/10`|
+|Raw CAN bus data|`/from_can_bus`|`can_msgs/Frame`|none|`10`|`Reliable`, `Volatile`, `Keep last/10` |
 |GNSS/INS|`/novatel_<top/bottom>/rawimu`|`novatel_oem7_msgs/RAWIMU`|none|`125`|`Reliable`, `Volatile`, `Keep last/10`|
 |GNSS/INS|`/novatel_<top/bottom>/bestpos`|`novatel_oem7_msgs/BESTPOS`|none|`20`|`Reliable`, `Volatile`, `Keep last/10`|
 |GNSS/INS|`/novatel_<top/bottom>/bestgnsspos`|`novatel_oem7_msgs/BESTPOS`|none|`20`|`Reliable`, `Volatile`, `Keep last/10`|
@@ -28,6 +31,7 @@ To see how to custom messages type for ROS2, please refer to [Add custom ROS2 me
 |:--|:--|:--|:--|:--|:--|
 |Vehicle|`/vehicle_inputs`|`autonoma_msgs/VehicleInputs`|none|`100`|`Reliable`, `Volatile`, `Keep last/10`|
 |Vehicle|`/to_raptor`|`autonoma_msgs/ToRaptor`|none|N/A|`Reliable`, `Volatile`, `Keep last/10`|
+|Raw CAN bus data|`/to_can_bus`|`can_msgs/Frame`|none|`10`|`Reliable`, `Volatile`, `Keep last/10` |
 
 
 ## Block Diagram
