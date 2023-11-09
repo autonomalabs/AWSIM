@@ -1,0 +1,485 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ ang_heading : 40|16@1- (0.01,0) [-327.68|327.67] "rad" Vector__XXX
+ SG_ pos_y : 20|20@1- (0.01,0) [-5242.88|5242.87] "m" Vector__XXX
+ SG_ pos_x : 0|20@1- (0.01,0) [-5242.88|5242.87] "m" Vector__XXX
+ SG_ yaw_rate : 36|12@1- (0.025,0) [-51.2|51.175] "rps" Vector__XXX
+ SG_ velocity_long : 24|12@1- (0.05,0) [-102.4|102.35] "mps" Vector__XXX
+ SG_ velocity_lat : 12|12@1- (0.05,0) [-102.4|102.35] "mps" Vector__XXX
+ SG_ motor_angle : 48|12@1- (0.5,0) [-255|255] "rad" Vector__XXX
+ SG_ acceleration : 0|12@1- (0.025,0) [-51.2|51.175] "mps2" Vector__XXX
+ SG_ rc_base_sync_check : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ rc_lte_rssi : 1|8@1- (1,0) [0|0] "dBm" Vector__XXX
+
+BO_ 1312 steering_report_extd: 6 Vector__XXX
+ SG_ steering_motor_ang_3_fdbk : 32|11@1- (0.5,0) [-1024|1023] "deg" Vector__XXX
+ SG_ steering_motor_ang_2_fdbk : 16|11@1- (0.5,0) [-1024|1023] "deg" Vector__XXX
+ SG_ steering_motor_ang_1_fdbk : 0|11@1- (0.5,0) [-1024|1023] "deg" Vector__XXX
+
+BO_ 1339 Tire_Temp_RR_4: 8 Vector__XXX
+ SG_ RR_Tire_Temp_16 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RR_Tire_Temp_15 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RR_Tire_Temp_14 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RR_Tire_Temp_13 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1338 Tire_Temp_RR_3: 8 Vector__XXX
+ SG_ RR_Tire_Temp_12 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RR_Tire_Temp_11 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RR_Tire_Temp_10 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RR_Tire_Temp_09 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1337 Tire_Temp_RR_2: 8 Vector__XXX
+ SG_ RR_Tire_Temp_08 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RR_Tire_Temp_07 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RR_Tire_Temp_06 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RR_Tire_Temp_05 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1336 Tire_Temp_RR_1: 8 Vector__XXX
+ SG_ RR_Tire_Temp_04 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RR_Tire_Temp_03 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RR_Tire_Temp_02 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RR_Tire_Temp_01 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1335 Tire_Temp_RL_4: 8 Vector__XXX
+ SG_ RL_Tire_Temp_16 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RL_Tire_Temp_15 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RL_Tire_Temp_14 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RL_Tire_Temp_13 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1334 Tire_Temp_RL_3: 8 Vector__XXX
+ SG_ RL_Tire_Temp_12 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RL_Tire_Temp_11 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RL_Tire_Temp_10 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RL_Tire_Temp_09 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1333 Tire_Temp_RL_2: 8 Vector__XXX
+ SG_ RL_Tire_Temp_08 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RL_Tire_Temp_07 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RL_Tire_Temp_06 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RL_Tire_Temp_05 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1332 Tire_Temp_RL_1: 8 Vector__XXX
+ SG_ RL_Tire_Temp_04 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RL_Tire_Temp_03 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RL_Tire_Temp_02 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ RL_Tire_Temp_01 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1331 Tire_Temp_FR_4: 8 Vector__XXX
+ SG_ FR_Tire_Temp_16 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FR_Tire_Temp_15 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FR_Tire_Temp_14 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FR_Tire_Temp_13 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1330 Tire_Temp_FR_3: 8 Vector__XXX
+ SG_ FR_Tire_Temp_12 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FR_Tire_Temp_11 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FR_Tire_Temp_10 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FR_Tire_Temp_09 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1329 Tire_Temp_FR_2: 8 Vector__XXX
+ SG_ FR_Tire_Temp_08 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FR_Tire_Temp_07 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FR_Tire_Temp_06 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FR_Tire_Temp_05 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1328 Tire_Temp_FR_1: 8 Vector__XXX
+ SG_ FR_Tire_Temp_04 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FR_Tire_Temp_03 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FR_Tire_Temp_02 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FR_Tire_Temp_01 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1327 Tire_Temp_FL_4: 8 Vector__XXX
+ SG_ FL_Tire_Temp_16 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FL_Tire_Temp_15 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FL_Tire_Temp_14 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FL_Tire_Temp_13 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1326 Tire_Temp_FL_3: 8 Vector__XXX
+ SG_ FL_Tire_Temp_12 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FL_Tire_Temp_11 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FL_Tire_Temp_10 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FL_Tire_Temp_09 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1325 Tire_Temp_FL_2: 8 Vector__XXX
+ SG_ FL_Tire_Temp_08 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FL_Tire_Temp_07 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FL_Tire_Temp_06 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FL_Tire_Temp_05 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1324 Tire_Temp_FL_1: 8 Vector__XXX
+ SG_ FL_Tire_Temp_04 : 55|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FL_Tire_Temp_03 : 39|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FL_Tire_Temp_02 : 23|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+ SG_ FL_Tire_Temp_01 : 7|16@0+ (0.1,-100) [-100|6453.5] "degC" Vector__XXX
+
+BO_ 1323 Tire_Pressure_RR: 4 Vector__XXX
+ SG_ RR_Tire_Pressure_Gauge : 23|16@0+ (1,0) [0|65535] "mbar" Vector__XXX
+ SG_ RR_Tire_Pressure : 7|16@0+ (1,0) [0|65535] "mbar" Vector__XXX
+
+BO_ 1322 Tire_Pressure_RL: 4 Vector__XXX
+ SG_ RL_Tire_Pressure_Gauge : 23|16@0+ (1,0) [0|65535] "mbar" Vector__XXX
+ SG_ RL_Tire_Pressure : 7|16@0+ (1,0) [0|65535] "mbar" Vector__XXX
+
+BO_ 1321 Tire_Pressure_FR: 4 Vector__XXX
+ SG_ FR_Tire_Pressure_Gauge : 23|16@0+ (1,0) [0|65535] "mbar" Vector__XXX
+ SG_ FR_Tire_Pressure : 7|16@0+ (1,0) [0|65535] "mbar" Vector__XXX
+
+BO_ 1320 Tire_Pressure_FL: 4 Vector__XXX
+ SG_ FL_Tire_Pressure_Gauge : 23|16@0+ (1,0) [0|65535] "mbar" Vector__XXX
+ SG_ FL_Tire_Pressure : 7|16@0+ (1,0) [0|65535] "mbar" Vector__XXX
+
+BO_ 1403 gear_shift_cmd: 8 Vector__XXX
+ SG_ desired_gear : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1404 ct_report: 8 Vector__XXX
+ SG_ track_cond_ack : 8|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ veh_sig_ack : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ct_state : 24|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ct_state_rolling_counter : 40|8@1+ (1,0) [0|9] "" Vector__XXX
+ SG_ veh_num : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1402 steering_cmd: 8 Vector__XXX
+ SG_ steering_motor_cmd_counter : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ steering_motor_ang_cmd : 0|11@1- (0.5,0) [-1024|1023] "deg" Vector__XXX
+
+BO_ 1401 accelerator_cmd: 8 Vector__XXX
+ SG_ acc_pedal_cmd_counter : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ acc_pedal_cmd : 0|16@1- (0.01,0) [-150|655.35] "%" Vector__XXX
+
+BO_ 1400 brake_pressure_cmd: 8 Vector__XXX
+ SG_ brk_pressure_cmd_counter : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ brake_pressure_cmd : 0|13@1+ (1,0) [0|8191] "" Vector__XXX
+
+BO_ 1311 wheel_potentiometer_data: 8 Vector__XXX
+ SG_ wheel_potentiometer_RR : 32|16@1+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ wheel_potentiometer_RL : 48|16@1+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ wheel_potentiometer_FR : 16|16@1+ (0.01,0) [0|0] "" Vector__XXX
+ SG_ wheel_potentiometer_FL : 0|16@1+ (0.01,0) [0|0] "" Vector__XXX
+
+BO_ 1310 wheel_strain_gauge: 8 Vector__XXX
+ SG_ wheel_strain_gauge_RR : 48|12@1+ (10,0) [0|8190] "" Vector__XXX
+ SG_ wheel_strain_gauge_RL : 32|12@1+ (10,0) [0|8190] "" Vector__XXX
+ SG_ wheel_strain_gauge_FR : 16|12@1+ (10,0) [0|8190] "" Vector__XXX
+ SG_ wheel_strain_gauge_FL : 0|12@1+ (10,0) [0|8190] "" Vector__XXX
+
+BO_ 1304 misc_report: 5 Vector__XXX
+ SG_ battery_voltage : 0|8@1+ (0.1,0) [0|0] "V" Vector__XXX
+ SG_ safety_switch_state : 32|3@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ mode_switch_state : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ sys_state : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ raptor_rolling_counter : 19|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1303 steering_report: 3 Vector__XXX
+ SG_ steering_motor_fdbk_counter : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ steering_motor_ang_avg_fdbk : 0|11@1- (0.5,0) [-1024|1023] "deg" Vector__XXX
+
+BO_ 1302 accelerator_report: 3 Vector__XXX
+ SG_ acc_pedal_fdbk_counter : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ acc_pedal_fdbk : 0|16@1+ (0.1,0) [0|65535] "%" Vector__XXX
+
+BO_ 1301 brake_pressure_report: 5 Vector__XXX
+ SG_ brk_pressure_fdbk_counter : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ brake_pressure_fdbk_rear : 16|13@1+ (1,0) [0|8191] "kPa" Vector__XXX
+ SG_ brake_pressure_fdbk_front : 0|13@1+ (1,0) [0|8191] "kPa" Vector__XXX
+
+BO_ 1300 wheel_speed_report: 8 Vector__XXX
+ SG_ wheel_speed_RL : 32|16@1+ (0.1,0) [0|340] "kmph" Vector__XXX
+ SG_ wheel_speed_FR : 16|16@1+ (0.1,0) [0|340] "kmph" Vector__XXX
+ SG_ wheel_speed_FL : 0|16@1+ (0.1,0) [0|340] "kmph" Vector__XXX
+ SG_ wheel_speed_RR : 48|16@1+ (0.1,0) [0|340] "kmph" Vector__XXX
+
+BO_ 1340 pt_report_1: 8 Vector__XXX
+ SG_ throttle_position : 5|16@0+ (0.1,0) [0|100] "%" Vector__XXX
+ SG_ current_gear : 21|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ engine_speed_rpm : 29|16@0+ (1,0) [0|16000] "rpm" Vector__XXX
+ SG_ vehicle_speed_kmph : 45|16@0+ (0.1,0) [0|6553.5] "kmph" Vector__XXX
+ SG_ engine_run_switch : 7|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ engine_state : 6|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ gear_shift_status : 61|3@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1341 pt_report_2: 8 Vector__XXX
+ SG_ fuel_pressure_kPa : 7|16@0+ (0.1,0) [0|1000] "kPa" Vector__XXX
+ SG_ engine_oil_pressure_kPa : 23|16@0+ (0.1,0) [0|0] "kPa" Vector__XXX
+ SG_ coolant_temperature : 39|8@0+ (1,0) [0|255] "C" Vector__XXX
+ SG_ transmission_temperature : 47|8@0+ (1,0) [0|255] "C" Vector__XXX
+ SG_ transmission_pressure_kPa : 55|16@0+ (1,0) [0|0] "kPa" Vector__XXX
+
+BO_ 1342 diagnostic_report: 8 Vector__XXX
+ SG_ sd_system_warning : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ sd_system_failure : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ sd_brake_warning1 : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ sd_brake_warning2 : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ sd_brake_warning3 : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ sd_steer_warning1 : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ sd_steer_warning2 : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ sd_steer_warning3 : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ motec_warning : 8|8@1+ (1,0) [0|31] "" Vector__XXX
+ SG_ est1_oos_front_brk : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ est2_oos_rear_brk : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ est3_low_eng_speed : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ est4_sd_comms_loss : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ est5_motec_comms_loss : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ est6_sd_ebrake : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ adlink_hb_lost : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ rc_lost : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1200 base_to_car_summary: 8 Vector__XXX
+ SG_ base_to_car_heartbeat : 0|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ track_flag : 4|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ veh_flag : 8|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ veh_rank : 12|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ lap_count : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ lap_distance : 32|16@1+ (1,0) [0|0] "m" Vector__XXX
+ SG_ round_target_speed : 16|8@1+ (1,0) [0|0] "mph" Vector__XXX
+
+BO_ 1208 base_to_car_timing: 8 Vector__XXX
+ SG_ laps : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ lap_time : 8|24@1+ (0.1,0) [0|0] "ms" Vector__XXX
+ SG_ time_stamp : 32|32@1+ (0.1,0) [0|0] "ms" Vector__XXX
+
+BO_ 1209 rest_of_field: 8 Vector__XXX
+ SG_ comp_veh_num : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ comp_rank : 12|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ comp_veh_flag : 8|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ comp_laps_count : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ comp_lap_distance : 24|16@1+ (1,0) [0|0] "m" Vector__XXX
+ SG_ comp_speed : 48|16@1+ (0.1,0) [0|0] "kmph" Vector__XXX
+
+BO_ 1343 pt_report_3: 8 Vector__XXX
+ SG_ engine_oil_temperature : 0|8@1+ (1,0) [0|0] "degC" Vector__XXX
+ SG_ torque_wheels : 8|16@1- (0.1,0) [0|0] "Nm" Vector__XXX
+ SG_ driver_traction_aim_swicth_fbk : 24|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ driver_traction_range_switch_fbk : 32|8@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 228 mylaps_report_1: 8 Vector__XXX
+ SG_ mylaps_speed : 0|16@1+ (1,0) [0|0] "kmph" Vector__XXX
+ SG_ mylaps_heading : 16|16@1- (1,0) [0|0] "degrees" Vector__XXX
+
+BO_ 226 mylaps_report_2: 8 Vector__XXX
+ SG_ Latitude : 0|32@1- (1e-07,0) [0|0] "" Vector__XXX
+ SG_ Longitude : 32|32@1- (1e-07,0) [0|0] "" Vector__XXX
+
+BO_ 1406 dash_switches_cmd: 8 Vector__XXX
+ SG_ driver_traction_aim_switch : 0|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ driver_traction_range_switch : 4|4@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1450 ct_vehicle_acc_feedback: 8 Vector__XXX
+ SG_ long_ct_vehicle_acc_fbk : 0|16@1- (0.01,0) [-327.68|327.67] "G" Vector__XXX
+ SG_ lat_ct_vehicle_acc_fbk : 16|16@1- (0.01,0) [-327.68|327.67] "G" Vector__XXX
+ SG_ vertical_ct_vehicle_acc_fbk : 32|16@1- (0.01,0) [-327.68|327.67] "G" Vector__XXX
+
+BO_ 1250 marelli_report_1: 8 Vector__XXX
+ SG_ marelli_track_flag : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ marelli_vehicle_flag : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ marelli_sector_flag : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ marelli_rc_base_sync_check : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ marelli_rc_lte_rssi : 25|8@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 1251 marelli_report_2: 8 Vector__XXX
+ SG_ marelli_gps_lat : 0|32@1- (1e-07,0) [0|0] "�" Vector__XXX
+ SG_ marelli_gps_long : 32|32@1- (1e-07,0) [0|0] "�" Vector__XXX
+
+BO_ 1405 ct_report_2: 8 Vector__XXX
+ SG_ marelli_track_flag_ack : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ marelli_vehicle_flag_ack : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ marelli_sector_flag_ack : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+
+
+
+CM_ SG_ 1312 steering_motor_ang_3_fdbk "motor angle feedback in deg.
+
+physical_value = offset + factor * raw_value_decimal";
+CM_ SG_ 1312 steering_motor_ang_2_fdbk "motor angle feedback in deg.
+
+physical_value = offset + factor * raw_value_decimal";
+CM_ SG_ 1312 steering_motor_ang_1_fdbk "motor angle feedback in deg.
+
+physical_value = offset + factor * raw_value_decimal";
+CM_ BO_ 1403 "DO12 - gear shift command";
+CM_ BO_ 1404 "DO12 - CT report to RC";
+CM_ BO_ 1402 "steering demand from computer to raptor in degrees
+";
+CM_ SG_ 1402 steering_motor_cmd_counter "rolling counter for steering motor angle commamd message";
+CM_ SG_ 1402 steering_motor_ang_cmd "motor angle command  in deg.
+
+physical_value = offset + factor * raw_value_decimal";
+CM_ SG_ 1401 acc_pedal_cmd "0-100 % accelerator pedal
+";
+CM_ BO_ 1400 "Demand of brake pressure from computer to raptor in kPa
+";
+CM_ SG_ 1400 brk_pressure_cmd_counter "rolling counter for brake pressure command message";
+CM_ SG_ 1400 brake_pressure_cmd "Brake pressure for front wheels in kPa. demand from competition team
+values should be positive integer in kPa.";
+CM_ BO_ 1311 "Contains the information of potentiometer, strain gage readings and calculated Fz of the front right wheel ";
+CM_ SG_ 1311 wheel_potentiometer_RR "potentiometer reading of front left assembly";
+CM_ SG_ 1311 wheel_potentiometer_RL "potentiometer reading of front left assembly";
+CM_ SG_ 1311 wheel_potentiometer_FR "potentiometer reading of front left assembly";
+CM_ SG_ 1311 wheel_potentiometer_FL "potentiometer reading of front left assembly";
+CM_ BO_ 1310 "Contains the information of potentiometer, strain gage readings and calculated Fz of the front left wheel ";
+CM_ SG_ 1310 wheel_strain_gauge_RR "strain gauge load value in N rear right wheel  in mm.
+";
+CM_ SG_ 1310 wheel_strain_gauge_RL "strain gauge load value in N rear left wheel  in mm.
+";
+CM_ SG_ 1310 wheel_strain_gauge_FR "strain gauge load value in N front right wheel  in mm.
+";
+CM_ SG_ 1310 wheel_strain_gauge_FL "strain gauge load value in N front left wheel in mm.
+";
+CM_ BO_ 1304 "DO12 - misc report";
+CM_ SG_ 1303 steering_motor_fdbk_counter "rolling counter for steering motor angle feedbak message";
+CM_ SG_ 1303 steering_motor_ang_avg_fdbk "motor angle feedback in deg.
+
+physical_value = offset + factor * raw_value_decimal";
+CM_ BO_ 1301 "Brake pressure for front and rear wheels in kPa. ";
+CM_ SG_ 1301 brk_pressure_fdbk_counter "rolling counter for brake pressure feedback message";
+CM_ SG_ 1301 brake_pressure_fdbk_rear "Brake pressure for rear wheels in kPa. 
+values will be positive integer in kPa.";
+CM_ SG_ 1301 brake_pressure_fdbk_front "Brake pressure for front wheels in kPa. 
+values will be positive integer in kPa.";
+CM_ SG_ 1300 wheel_speed_RL "rear left wheel speed in kmph
+";
+CM_ SG_ 1300 wheel_speed_FR "front right wheel speed in kmph";
+CM_ SG_ 1300 wheel_speed_FL "front left wheel speed in kmph";
+CM_ SG_ 1300 wheel_speed_RR "rear right wheel speed in kmph";
+CM_ SG_ 1340 engine_run_switch "Run swicth 1 implies fuel pumps are on and primed/priming;
+Run switch 0 implies pumps are off;
+";
+CM_ SG_ 1340 engine_state "Engine state 1 implies that the engine is running; 
+Engine state 0 implies that it is off;";
+CM_ SG_ 1340 gear_shift_status "0 = Uninitialised; 1 = Ready to shift; 2= Locked Out; 3= Upshift in progress;
+4= Downshift in progress; ";
+CM_ SG_ 1342 sd_system_warning "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 sd_system_failure "0 means okay; 
+1 means error;
+
+";
+CM_ SG_ 1342 sd_brake_warning1 "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 sd_brake_warning2 "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 sd_brake_warning3 "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 sd_steer_warning1 "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 sd_steer_warning2 "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 sd_steer_warning3 "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 motec_warning "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 est1_oos_front_brk "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 est2_oos_rear_brk "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 est3_low_eng_speed "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 est4_sd_comms_loss "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 est5_motec_comms_loss "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 est6_sd_ebrake "0 means okay; 
+1 means error;
+";
+CM_ SG_ 1342 adlink_hb_lost "0--HB okay;
+1--HbFail;";
+CM_ SG_ 1342 rc_lost "0--HB okay;
+1--HbFail;
+";
+CM_ SG_ 1343 torque_wheels "Multiplied by active gear ratio
+";
+CM_ BO_ 228 "Speed and heading data coming off of MyLaps racelink unit. Currently at 200 ms but WIP to bump up the update rate. This is for future improvement of purple flag behaviour by providing a redundant source of speed. ";
+CM_ BO_ 226 "GPS data from MyLaps racelink unit. Currently at 200 ms but WIP to bump up the update rate.  ";
+CM_ BO_ 1406 "AV23 vehicle will have virtual dash switches to perform low-level software functions like:
+
+a) Traction Control
+b) Pit Speed Limiter 
+c) Boost map switching
+
+The switch field has description of the type of switch (two-position, multi-pos etc.) and the corresponding function mapped to it in individual comments
+
+CT are expected to respond to the switches in some form.
+
+";
+CM_ SG_ 1406 driver_traction_aim_switch "Switch Position: 0 (TC is OFF)
+Switch Position: 1 (TC is ON and least aggressive - will allow the most wheel slip)
+Swicth Position: 2 (TC is ON and less aggressive - will allow more wheel slip)
+Switch Position: 3 (TC is ON and aggressive - will allow less wheel slip)
+Switch Position: 4 (TC is ON and most aggressive - will allow the least wheel slip)";
+CM_ SG_ 1406 driver_traction_range_switch "Switch Position: 0 (TC is ON and torque cut is moderate/default - Note: Traction Aim switch needs to be non-zero)
+Switch Position: 1 (TC is ON and torque cut is most gradual i.e. it will allow most additional wheel slip on top of the aim)
+Swicth Position: 2 (TC is ON and torque cut is less gradual than 1)
+Switch Position: 3 (TC is ON and torque cut is aggressive)
+Switch Position: 4 (TC is ON and torque cut is most aggressive. Most favorable in cold and damp conditions)";
+CM_ BO_ 1450 "Long,Lat and Vertical G forces (Tx to Raptor at 100Hz) 
+Source: Novatel Top/Bottom. Needed for Traction Control at MoTeC.  ";
+CM_ BO_ 1250 "This message consists of key information pertaining to race control, scoring and sync check with rc basestation (heartbeat)
+";
+CM_ SG_ 1250 marelli_track_flag "last TRACK flag received id";
+CM_ SG_ 1250 marelli_vehicle_flag "last CAR flag received id";
+CM_ SG_ 1250 marelli_sector_flag "last SECTOR flag received id";
+CM_ SG_ 1250 marelli_rc_base_sync_check "Sync check with RC base. This bit should is set to1 to enable transition to actuation test in race mode (meaning RC base is active).  If RC base experiences a consitent timeout of more than 10 seconds the bit will turn 0 ";
+CM_ SG_ 1250 marelli_rc_lte_rssi "This is the signal strength of the LTE modem 
+";
+CM_ BO_ 1251 "This message consists of GPS info from Marelli. Not required for close monitoring but teams can use this info for other applications.
+
+";
+CM_ SG_ 1251 marelli_gps_lat "Latitude
+";
+CM_ SG_ 1251 marelli_gps_long "Longitude
+";
+CM_ BO_ 1405 "This message consists of ACKs related to Marelli Flags. The teams will be responsible to loop back the received flag (track,vehicle and sector) on this message in the relevant fields. Expected at 100 Hz.";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "CAN";
+VAL_ 1343 driver_traction_aim_swicth_fbk -1 "Default" 0 "Zero" 1 "One" 2 "Two" 3 "Three" 4 "Four" 5 "Five" 6 "Six" 7 "Seven" 8 "Eight" 9 "Nine" ;
+VAL_ 1343 driver_traction_range_switch_fbk -1 "Default" 0 "Zero" 1 "First" 2 "Second" 3 "Three" 4 "Four" 5 "Five" 6 "Six" 7 "Seven" 8 "Eight" 9 "Nine" ;
+
